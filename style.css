@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --azul-senac:#014C8C;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+ 
+body{
+    font-family: "Montserrat", sans-serif;;
+}
+ 
+.Cabecalho{
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    width: 90%;
+    justify-content: space-between;
+}
+ 
+.img-Logo img{
+    width: 217px;
+}
+ 
+.Menu ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+ 
+}
+ 
+.Menu a{
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.Menu a:hover{
+    border-bottom: 4px solid var(--azul-senac);
+    border-radius: 3px;
+
+}
+img .banner img{
+    width: 100%;
+}
+ 
