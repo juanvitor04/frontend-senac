@@ -4,6 +4,8 @@
 }
 :root{
     --azul-senac:#014C8C;
+    --laranja-senac:#ED8B20;
+    --laranja-senac-escuro:#c5670396;
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
  
@@ -42,7 +44,54 @@ body{
     border-radius: 3px;
 
 }
-img .banner img{
+.banner{
+    position: relative;
     width: 100%;
 }
- 
+.banner img{
+    width: 100%;
+    display: block;
+}
+.flutuante{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 2rem;
+    color: var(--azul-senac);
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    text-align: center;
+}
+
+.flutuante p{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 2rem;
+    color: var(--azul-senac);
+}
+.flutuante button{
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px 5px #747474c9;
+    color: white;
+    background-image: linear-gradient(var(--laranja-senac), var(--laranja-senac-escuro));
+    cursor: pointer;
+    transition: 1s;
+}
+.flutuante button:hover{
+    background-image: linear-gradient(var(--laranja-senac-escuro), var(--laranja-senac));
+}
+/* ==================== O SENAC ==================== */
+.o-senac{
+    background-color: var(--azul-senac);
+    color: white;
+  
+}
+.o-senac div{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
