@@ -12,33 +12,33 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
-
-.Cabecalho {
+/* ==================== CABEÇALHO ==================== */
+.cabecalho {
   display: flex;
   align-items: center;
-  margin: 20px auto;
+  margin: 10px auto;
   width: 90%;
   justify-content: space-between;
 }
 
-.img-Logo img {
-  width: 217px;
+.img-logo img {
+  width: 110px;
 }
 
-.Menu ul {
+.menu ul {
   display: flex;
   gap: 20px;
   list-style: none;
 }
 
-.Menu a {
+.menu a {
   text-decoration: none;
   color: black;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
-.Menu a:hover {
+.menu a:hover {
   border-bottom: 4px solid var(--azul-senac);
   border-radius: 3px;
 }
@@ -56,11 +56,10 @@ body {
   font-size: 2rem;
   color: var(--azul-senac);
   position: absolute;
-  bottom: 30px;
-  right: 50px;
+  bottom: 50px;
+  right: 100px;
   text-align: center;
 }
-
 .flutuante p {
   text-transform: uppercase;
   font-weight: 800;
@@ -94,7 +93,7 @@ body {
   color: white;
   border-bottom: 7px solid var(--laranja-senac);
   text-align: center;
-    padding: 20px 0;
+  padding: 20px 0;
 }
 .o-senac div {
   width: 80%;
@@ -137,12 +136,12 @@ body {
 }
 /* ==================== MEDIA QUERY ==================== */
 @media screen and (max-width: 620px) {
-    .Cabecalho{
+    .cabecalho{
         display: block;
         text-align: center;
         margin: 0 auto;
     }
-    .Menu ul{
+    .menu ul{
         justify-content: center;
         margin: 10px 0; 
     }
