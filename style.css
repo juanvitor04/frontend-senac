@@ -127,8 +127,8 @@ body {
  text-align: center;
 }
 .footer img{
-    height: 60px;
-    margin: 20px 0;
+    height: 45px;
+    margin: 15px 0;
 }
 .footer p{
     font-weight: bold;
@@ -194,14 +194,15 @@ body {
   .img-logo img {
     width: 100px;
   }
-  /* posiciona a caixa flutuante abaixo da imagem no fluxo para evitar sobreposição */
+  /* posiciona a caixa flutuante sobre a imagem mantendo responsividade */
   .flutuante {
-    position: static;
-    transform: translateY(0);
-    margin: 12px auto;
-    right: auto;
-    bottom: auto;
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+    transform: none;
+    margin: 0;
     font-size: 1.4rem;
+    max-width: 50%;
   }
   .banner img {
     object-fit: cover;
@@ -228,8 +229,11 @@ body {
     font-size: 0.95rem;
   }
   .flutuante {
-    font-size: 1.1rem;
-    margin: 10px auto;
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    font-size: 1.05rem;
+    max-width: 70%;
   }
   .flutuante button {
     padding: 8px 16px;
